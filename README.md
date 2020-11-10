@@ -1,6 +1,6 @@
 ## Moviez App
 Application for searching movies and tv shows
-Access it using this link https://sorting-visualized.netlify.app/
+Access it using this link https://moviez-app.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
