@@ -1,0 +1,15 @@
+.searchType div {
+    display: inline-block;
+    margin-right: .5rem;
+}
+
+
+.searchType:hover a{
+  
+    color: #d9534f;
+}
+
+.searchType.active a {
+    
+    color: #d9534f;
+}

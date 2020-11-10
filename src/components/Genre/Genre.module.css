@@ -1,0 +1,32 @@
+
+.genre {
+    cursor: pointer;  
+}
+
+.genre:hover a {
+    color: #d9534f;
+}
+
+.genre:focus a {
+    color: #d9534f;
+}
+
+
+
+
+
+
+.activeCategory {
+    background: #fff;
+    box-shadow: 0px 0px 5px 5px #fff;   
+   
+}
+
+.activeCategory a {
+    color: #d9534f;
+}
+
+
+
+
+

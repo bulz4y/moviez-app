@@ -1,0 +1,24 @@
+.header-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    background: rgb(21, 28, 38);
+    box-shadow: 0px 7px 25px 10px rgb(21, 28, 38);
+    opacity: 0.92;
+    color: #fff;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+@media (max-width: 576px) {
+    .header-flex {
+        flex-direction: column;
+    }
+}
+

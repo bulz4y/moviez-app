@@ -1,0 +1,17 @@
+.navLeft ul {
+    list-style: none;
+}
+
+.navLeft li {
+    display: inline;
+    padding-right: 2rem;
+}
+
+@media (max-width: 768px) {
+    .navLeft {
+        display: none;
+    }
+}
+
+
+

@@ -1,0 +1,28 @@
+.hamburger-menu {
+    position: fixed;
+    z-index: 100;
+    top:50%;
+    cursor: pointer;
+    padding: 1rem;
+    background: #151c26;
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    transition: all .3s ease;
+}
+
+.hamburger-menu:hover {
+    background: #304057;
+}
+
+.hamburger-menu span {
+    display: inline-block;
+    background: #fff;
+    height: 4rem;
+    width: .2rem;
+    margin-right: .3rem;
+}
+
+.hamburger-menu i {
+    color: #fff;
+    font-size: 3.5rem;
+}

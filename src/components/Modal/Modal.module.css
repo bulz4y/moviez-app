@@ -1,0 +1,16 @@
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 6000000;
+    width: 500px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .modal {
+        width: 80%;
+    }
+}

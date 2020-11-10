@@ -1,0 +1,14 @@
+.navRight {
+    list-style: none;
+}
+
+.navRight li {
+    display: inline;
+    padding-right: 1rem;
+}
+
+@media (max-width: 576px) {
+    .navRight li:last-child {
+        display: none;
+    }
+}

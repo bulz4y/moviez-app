@@ -1,0 +1,99 @@
+.showPoster {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+
+}
+
+.showPoster img {
+    display:  block;
+    height: auto;
+    width: 100%;
+    height: 100%; 
+}
+
+
+.showPoster:hover .show-overlay{
+    opacity: .8;
+}
+
+.showPoster:hover .content  {
+    opacity: 1;
+}
+
+.title, .rating {
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+
+
+.rating {
+    bottom: 1rem;
+    text-align: center;   
+}
+
+.rating i {
+    color: #F5C518;
+}
+
+
+
+.rating h1 {
+    font-size: 1.6rem;
+}
+
+.rating h1 span {
+    font-size: 1.2rem;
+}
+
+.title {
+    text-align: center;
+    top: 7rem;
+}
+
+.title h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.content {
+    opacity: 0;
+    color: #000;
+    position: absolute;
+    font-weight: 600;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    transition: all .3s ease;
+}
+
+.content .icon  {
+    color: #000;
+    padding-right: 1rem;
+
+}
+
+.content .icon i { 
+    cursor: pointer;
+}
+
+.content .active {
+    color: #000;
+}
+
+
+.show-overlay{
+    color: #000;
+    background: #fff;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+    z-index: 2;
+}
+
+
